@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+.streamlit/secrets.toml
+
+# Training data should not be deployed
+*.csv

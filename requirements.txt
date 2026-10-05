@@ -1,0 +1,11 @@
+streamlit
+streamlit-webrtc
+deepface[tensorflow]
+tf-keras
+plotly
+pandas
+numpy
+scikit-learn
+joblib
+opencv-python-headless
+av
