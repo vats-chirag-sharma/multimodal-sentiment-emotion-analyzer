@@ -2734,41 +2734,6 @@ with face_tab:
 
                 key=
                     "emotion-camera",
-rtc_configuration={
-    "iceServers": [
-        {
-            "urls": [
-                "stun:stun.l.google.com:19302"
-            ]
-        },
-        {
-            "urls": [
-                "stun:stun.cloudflare.com:3478"
-            ]
-        }
-    ]
-},
-                video_frame_callback=
-                    video_frame_callback,
-
-                on_video_ended=
-                    video_ended,
-
-                media_stream_constraints={
-                    "video": {
-                        "width": {
-                            "ideal": 640
-                        },
-                        "height": {
-                            "ideal": 480
-                        },
-                        "frameRate": {
-                            "ideal": 12,
-                            "max": 15
-                        }
-                    },
-                    "audio": False
-                },
 
                 rtc_configuration={
                     "iceServers": [
