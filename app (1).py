@@ -2734,7 +2734,20 @@ with face_tab:
 
                 key=
                     "emotion-camera",
-
+rtc_configuration={
+    "iceServers": [
+        {
+            "urls": [
+                "stun:stun.l.google.com:19302"
+            ]
+        },
+        {
+            "urls": [
+                "stun:stun.cloudflare.com:3478"
+            ]
+        }
+    ]
+},
                 video_frame_callback=
                     video_frame_callback,
 
