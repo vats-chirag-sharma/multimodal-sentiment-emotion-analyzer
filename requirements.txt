@@ -1,5 +1,4 @@
 streamlit
-streamlit-webrtc>=0.78.1
 deepface[tensorflow]
 tf-keras
 plotly
@@ -7,5 +6,6 @@ pandas
 numpy
 scikit-learn
 joblib
-opencv-python-headless
-av
+opencv-python==4.10.0.84
+Pillow
+requests
